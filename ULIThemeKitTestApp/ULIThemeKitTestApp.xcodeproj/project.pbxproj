@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555DB333162C18310034D702 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555DB332162C18310034D702 /* Cocoa.framework */; };
+		555DB33D162C18310034D702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 555DB33B162C18310034D702 /* InfoPlist.strings */; };
+		555DB33F162C18310034D702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DB33E162C18310034D702 /* main.m */; };
+		555DB343162C18310034D702 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 555DB341162C18310034D702 /* Credits.rtf */; };
+		555DB346162C18310034D702 /* ULIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DB345162C18310034D702 /* ULIAppDelegate.m */; };
+		555DB349162C18320034D702 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555DB347162C18320034D702 /* MainMenu.xib */; };
+		555DB351162C18730034D702 /* ULIThemeButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DB350162C18730034D702 /* ULIThemeButtonCell.m */; };
+		555DB355162C214B0034D702 /* ULIThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DB354162C214B0034D702 /* ULIThemeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555DB32E162C18310034D702 /* ULIThemeKitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULIThemeKitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555DB332162C18310034D702 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		555DB335162C18310034D702 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		555DB336162C18310034D702 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		555DB337162C18310034D702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		555DB33A162C18310034D702 /* ULIThemeKitTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ULIThemeKitTestApp-Info.plist"; sourceTree = "<group>"; };
+		555DB33C162C18310034D702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		555DB33E162C18310034D702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		555DB340162C18310034D702 /* ULIThemeKitTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ULIThemeKitTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		555DB342162C18310034D702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		555DB344162C18310034D702 /* ULIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULIAppDelegate.h; sourceTree = "<group>"; };
+		555DB345162C18310034D702 /* ULIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULIAppDelegate.m; sourceTree = "<group>"; };
+		555DB348162C18320034D702 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		555DB34F162C18730034D702 /* ULIThemeButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULIThemeButtonCell.h; path = ../../Classes/ULIThemeButtonCell.h; sourceTree = "<group>"; };
+		555DB350162C18730034D702 /* ULIThemeButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULIThemeButtonCell.m; path = ../../Classes/ULIThemeButtonCell.m; sourceTree = "<group>"; };
+		555DB353162C214B0034D702 /* ULIThemeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULIThemeButton.h; path = ../../Classes/ULIThemeButton.h; sourceTree = "<group>"; };
+		555DB354162C214B0034D702 /* ULIThemeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULIThemeButton.m; path = ../../Classes/ULIThemeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555DB32B162C18310034D702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555DB333162C18310034D702 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555DB323162C18310034D702 = {
+			isa = PBXGroup;
+			children = (
+				555DB338162C18310034D702 /* ULIThemeKitTestApp */,
+				555DB331162C18310034D702 /* Frameworks */,
+				555DB32F162C18310034D702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		555DB32F162C18310034D702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555DB32E162C18310034D702 /* ULIThemeKitTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555DB331162C18310034D702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555DB332162C18310034D702 /* Cocoa.framework */,
+				555DB334162C18310034D702 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		555DB334162C18310034D702 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555DB335162C18310034D702 /* AppKit.framework */,
+				555DB336162C18310034D702 /* CoreData.framework */,
+				555DB337162C18310034D702 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		555DB338162C18310034D702 /* ULIThemeKitTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				555DB344162C18310034D702 /* ULIAppDelegate.h */,
+				555DB345162C18310034D702 /* ULIAppDelegate.m */,
+				555DB347162C18320034D702 /* MainMenu.xib */,
+				555DB352162C187E0034D702 /* ULIThemeKit */,
+				555DB339162C18310034D702 /* Supporting Files */,
+			);
+			path = ULIThemeKitTestApp;
+			sourceTree = "<group>";
+		};
+		555DB339162C18310034D702 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555DB33A162C18310034D702 /* ULIThemeKitTestApp-Info.plist */,
+				555DB33B162C18310034D702 /* InfoPlist.strings */,
+				555DB33E162C18310034D702 /* main.m */,
+				555DB340162C18310034D702 /* ULIThemeKitTestApp-Prefix.pch */,
+				555DB341162C18310034D702 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555DB352162C187E0034D702 /* ULIThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				555DB34F162C18730034D702 /* ULIThemeButtonCell.h */,
+				555DB350162C18730034D702 /* ULIThemeButtonCell.m */,
+				555DB353162C214B0034D702 /* ULIThemeButton.h */,
+				555DB354162C214B0034D702 /* ULIThemeButton.m */,
+			);
+			name = ULIThemeKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555DB32D162C18310034D702 /* ULIThemeKitTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555DB34C162C18320034D702 /* Build configuration list for PBXNativeTarget "ULIThemeKitTestApp" */;
+			buildPhases = (
+				555DB32A162C18310034D702 /* Sources */,
+				555DB32B162C18310034D702 /* Frameworks */,
+				555DB32C162C18310034D702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ULIThemeKitTestApp;
+			productName = ULIThemeKitTestApp;
+			productReference = 555DB32E162C18310034D702 /* ULIThemeKitTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555DB325162C18310034D702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ULI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Uli Kusterer";
+			};
+			buildConfigurationList = 555DB328162C18310034D702 /* Build configuration list for PBXProject "ULIThemeKitTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 555DB323162C18310034D702;
+			productRefGroup = 555DB32F162C18310034D702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555DB32D162C18310034D702 /* ULIThemeKitTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555DB32C162C18310034D702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555DB33D162C18310034D702 /* InfoPlist.strings in Resources */,
+				555DB343162C18310034D702 /* Credits.rtf in Resources */,
+				555DB349162C18320034D702 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555DB32A162C18310034D702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555DB33F162C18310034D702 /* main.m in Sources */,
+				555DB346162C18310034D702 /* ULIAppDelegate.m in Sources */,
+				555DB351162C18730034D702 /* ULIThemeButtonCell.m in Sources */,
+				555DB355162C214B0034D702 /* ULIThemeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		555DB33B162C18310034D702 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555DB33C162C18310034D702 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		555DB341162C18310034D702 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555DB342162C18310034D702 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		555DB347162C18320034D702 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555DB348162C18320034D702 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555DB34A162C18320034D702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		555DB34B162C18320034D702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		555DB34D162C18320034D702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ULIThemeKitTestApp/ULIThemeKitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ULIThemeKitTestApp/ULIThemeKitTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		555DB34E162C18320034D702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ULIThemeKitTestApp/ULIThemeKitTestApp-Prefix.pch";
+				INFOPLIST_FILE = "ULIThemeKitTestApp/ULIThemeKitTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555DB328162C18310034D702 /* Build configuration list for PBXProject "ULIThemeKitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555DB34A162C18320034D702 /* Debug */,
+				555DB34B162C18320034D702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555DB34C162C18320034D702 /* Build configuration list for PBXNativeTarget "ULIThemeKitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555DB34D162C18320034D702 /* Debug */,
+				555DB34E162C18320034D702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555DB325162C18310034D702 /* Project object */;
+}

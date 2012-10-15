@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ULIThemeKitTestApp' target in the 'ULIThemeKitTestApp' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
