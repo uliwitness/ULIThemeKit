@@ -16,8 +16,6 @@
 	BOOL		isPressed = self.isHighlighted;
 	BOOL		showState = self.showsStateBy & NSChangeGrayCellMask;
 
-	NSLog( @"%@ %lu", self.title, self.showsStateBy );
-
 	[NSColor.blueColor set];
 	[NSBezierPath strokeRect: frame];
 	if( (showState && self.state == NSOnState) || isPressed )
@@ -28,9 +26,9 @@
 }
 
 
-- (void)drawImage:(NSImage*)image withFrame:(NSRect)frame inView:(NSView*)controlView
+-(void)	drawImage: (NSImage*)image withFrame: (NSRect)frame inView: (NSView*)controlView
 {
-	if( self.showsStateBy & NSContentsCellMask )
+	if( [[self valueForKey: @"buttonType"] integerValue] == NSSwitchButton && self.showsStateBy & NSContentsCellMask )
 	{
 		BOOL		isPressed = self.isHighlighted;
 		
@@ -52,6 +50,8 @@
 			[NSBezierPath strokeRect: NSInsetRect(frame,2,2)];
 		}
 	}
+	else
+		[super drawImage: image withFrame: frame inView: controlView];
 }
 
 
