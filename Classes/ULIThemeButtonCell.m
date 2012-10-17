@@ -59,10 +59,10 @@
 {
 	BOOL		isPressed = self.isHighlighted;
 	BOOL		showState = self.showsStateBy & NSChangeGrayCellMask;
-	BOOL		showImageState = self.showsStateBy & NSContentsCellMask;
+	BOOL		textCanBePressed = [[self valueForKey: @"buttonType"] integerValue] != NSSwitchButton;
 
 	NSMutableAttributedString	*	tintedTitle = [title mutableCopy];
-	if( (showState && self.state == NSOnState) || (isPressed && !showImageState) )
+	if( (showState && self.state == NSOnState) || (isPressed && textCanBePressed) )
 	{
 		[tintedTitle addAttribute: NSForegroundColorAttributeName value: NSColor.whiteColor range: NSMakeRange(0, tintedTitle.length)];
 	}
