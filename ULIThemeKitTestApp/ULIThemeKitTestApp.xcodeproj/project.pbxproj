@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55342276162F162D000CEADF /* ULIThemeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */; };
 		555DB333162C18310034D702 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555DB332162C18310034D702 /* Cocoa.framework */; };
 		555DB33D162C18310034D702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 555DB33B162C18310034D702 /* InfoPlist.strings */; };
 		555DB33F162C18310034D702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DB33E162C18310034D702 /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55342274162F162D000CEADF /* ULIThemeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULIThemeTextFieldCell.h; path = ../../Classes/ULIThemeTextFieldCell.h; sourceTree = "<group>"; };
+		55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULIThemeTextFieldCell.m; path = ../../Classes/ULIThemeTextFieldCell.m; sourceTree = "<group>"; };
 		555DB32E162C18310034D702 /* ULIThemeKitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULIThemeKitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555DB332162C18310034D702 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		555DB335162C18310034D702 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 				555DB350162C18730034D702 /* ULIThemeButtonCell.m */,
 				555DB353162C214B0034D702 /* ULIThemeButton.h */,
 				555DB354162C214B0034D702 /* ULIThemeButton.m */,
+				55342274162F162D000CEADF /* ULIThemeTextFieldCell.h */,
+				55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */,
 			);
 			name = ULIThemeKit;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				555DB346162C18310034D702 /* ULIAppDelegate.m in Sources */,
 				555DB351162C18730034D702 /* ULIThemeButtonCell.m in Sources */,
 				555DB355162C214B0034D702 /* ULIThemeButton.m in Sources */,
+				55342276162F162D000CEADF /* ULIThemeTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +324,7 @@
 				555DB34E162C18320034D702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
