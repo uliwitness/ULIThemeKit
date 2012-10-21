@@ -41,7 +41,7 @@
 }
 
 
-- (void)tableView:(NSTableView *)tableView didAddRowView:(NSTableRowView *)rowView forRow:(NSInteger)row
+-(void)	tableView: (NSTableView *)tableView didAddRowView: (NSTableRowView *)rowView forRow: (NSInteger)row
 {
 	NSArray	*	altRowColors = ((ULIThemeTableView*)tableView).alternatingRowColors;
 	rowView.backgroundColor = [altRowColors objectAtIndex: row % altRowColors.count];
