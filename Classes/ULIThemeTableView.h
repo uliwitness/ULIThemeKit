@@ -10,4 +10,6 @@
 
 @interface ULIThemeTableView : NSTableView
 
+-(NSArray*)	alternatingRowColors;
+
 @end

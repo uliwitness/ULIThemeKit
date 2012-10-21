@@ -7,6 +7,7 @@
 //
 
 #import "ULITableViewDataSourceTest.h"
+#import "ULIThemeTableView.h"
 
 @implementation ULITableViewDataSourceTest
 
@@ -37,6 +38,13 @@
 	[super awakeFromNib];
 	
 	[mTableView reloadData];
+}
+
+
+- (void)tableView:(NSTableView *)tableView didAddRowView:(NSTableRowView *)rowView forRow:(NSInteger)row
+{
+	NSArray	*	altRowColors = ((ULIThemeTableView*)tableView).alternatingRowColors;
+	rowView.backgroundColor = [altRowColors objectAtIndex: row % altRowColors.count];
 }
 
 @end
