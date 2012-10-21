@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5506C99916349E5D0062DAF7 /* ULIThemeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506C99816349E5D0062DAF7 /* ULIThemeTableView.m */; };
+		5506C99D1634A0930062DAF7 /* ULITableViewDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506C99C1634A0930062DAF7 /* ULITableViewDataSourceTest.m */; };
 		55342276162F162D000CEADF /* ULIThemeTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */; };
 		555DB333162C18310034D702 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555DB332162C18310034D702 /* Cocoa.framework */; };
 		555DB33D162C18310034D702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 555DB33B162C18310034D702 /* InfoPlist.strings */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5506C99716349E5D0062DAF7 /* ULIThemeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULIThemeTableView.h; path = ../../Classes/ULIThemeTableView.h; sourceTree = "<group>"; };
+		5506C99816349E5D0062DAF7 /* ULIThemeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULIThemeTableView.m; path = ../../Classes/ULIThemeTableView.m; sourceTree = "<group>"; };
+		5506C99B1634A0930062DAF7 /* ULITableViewDataSourceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULITableViewDataSourceTest.h; sourceTree = "<group>"; };
+		5506C99C1634A0930062DAF7 /* ULITableViewDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULITableViewDataSourceTest.m; sourceTree = "<group>"; };
 		55342274162F162D000CEADF /* ULIThemeTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULIThemeTextFieldCell.h; path = ../../Classes/ULIThemeTextFieldCell.h; sourceTree = "<group>"; };
 		55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULIThemeTextFieldCell.m; path = ../../Classes/ULIThemeTextFieldCell.m; sourceTree = "<group>"; };
 		555DB32E162C18310034D702 /* ULIThemeKitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULIThemeKitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +102,8 @@
 				555DB347162C18320034D702 /* MainMenu.xib */,
 				555DB352162C187E0034D702 /* ULIThemeKit */,
 				555DB339162C18310034D702 /* Supporting Files */,
+				5506C99B1634A0930062DAF7 /* ULITableViewDataSourceTest.h */,
+				5506C99C1634A0930062DAF7 /* ULITableViewDataSourceTest.m */,
 			);
 			path = ULIThemeKitTestApp;
 			sourceTree = "<group>";
@@ -121,6 +129,8 @@
 				555DB354162C214B0034D702 /* ULIThemeButton.m */,
 				55342274162F162D000CEADF /* ULIThemeTextFieldCell.h */,
 				55342275162F162D000CEADF /* ULIThemeTextFieldCell.m */,
+				5506C99716349E5D0062DAF7 /* ULIThemeTableView.h */,
+				5506C99816349E5D0062DAF7 /* ULIThemeTableView.m */,
 			);
 			name = ULIThemeKit;
 			sourceTree = "<group>";
@@ -195,6 +205,8 @@
 				555DB351162C18730034D702 /* ULIThemeButtonCell.m in Sources */,
 				555DB355162C214B0034D702 /* ULIThemeButton.m in Sources */,
 				55342276162F162D000CEADF /* ULIThemeTextFieldCell.m in Sources */,
+				5506C99916349E5D0062DAF7 /* ULIThemeTableView.m in Sources */,
+				5506C99D1634A0930062DAF7 /* ULITableViewDataSourceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,4 @@
 ULIThemeKit
 ===========
 
-Subclasses of AppKit controls that can be themed using images.
+Examples of subclasses of AppKit controls that that show how to do custom themed drawing.
